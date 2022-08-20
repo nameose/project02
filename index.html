@@ -8,8 +8,26 @@
   <title>한솥도시락</title>
   <link rel="stylesheet" href="css/reset.css" />
   <link rel="stylesheet" href="css/common.css" />
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="css/swiper.css" />
   <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+  <link rel="apple-touch-icon" sizes="57x57" href="favicon/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="favicon/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="favicon/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="favicon/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="favicon/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="favicon/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="favicon/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="favicon/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="favicon/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="favicon/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+  <link rel="manifest" href="favicon/manifest.json">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="favicon/ms-icon-144x144.png">
+  <meta name="theme-color" content="#ffffff">
 </head>
 
 <body>
@@ -38,13 +56,13 @@
       <nav class="nav-wrap inner">
         <h1>
           LOGO
-          <a href="javascript:;"></a>
+          <a href="index.html"></a>
         </h1>
         <ul class="gnb">
           <li class="depth1">
             <a href="javascript:;">BRAND</a>
             <ul class="depth2">
-              <li><a href="javascript:;">브랜드 스토리</a></li>
+              <li><a href="sub_page.html">브랜드 스토리</a></li>
               <li><a href="javascript:;">브랜드 철학</a></li>
               <li><a href="javascript:;">브랜드 유산</a></li>
             </ul>
@@ -53,9 +71,9 @@
             <a href="javascript:;">ESG</a>
             <ul class="depth2">
               <li><a href="javascript:;">ESG경영이란?</a></li>
-              <li><a href="javascript:;">환경보호(Environment)</a></li>
-              <li><a href="javascript:;">사회공헌(Social)</a></li>
-              <li><a href="javascript:;">윤리경영(Governance)</a></li>
+              <li><a href="javascript:;">환경보호</a></li>
+              <li><a href="javascript:;">사회공헌</a></li>
+              <li><a href="javascript:;">윤리경영</a></li>
               <li><a href="javascript:;">세계 40대 브랜드 선정</a></li>
             </ul>
           </li>
@@ -106,10 +124,19 @@
           </li>
         </ul>
       </nav>
+      <!-- 햄버거 메뉴 버튼 -->
+      <p class="openMOgnb">
+        <a href="#">
+          <b class="ir_so">메뉴열기</b>
+          <span></span>
+          <span></span>
+          <span></span>
+        </a>
+      </p>
     </header>
     <div id="content">
       <section class="main-cont-wrap">
-        <div class="swiper mySwiper" id="top">
+        <div id="top" class="swiper mySwiper">
           <ul class="swiper-wrapper">
             <li class="swiper-slide">
               <a href="javascript:;"><img src="img/main_slide_01.jpg" alt=""></a>
@@ -151,9 +178,9 @@
             <figure>
               <img src="img/main_img_02.jpg" alt="주변점포찾기 이미지" />
               <figcaption>
-                <p>갓 지은 한끼가 기다리고 있는</p>
+                <p>갓 지은 한 끼가 기다리고 있는</p>
                 <p>가까운 한솥 매장을 찾아보세요</p>
-                <span>주변점포찾기</span>
+                <span>주변 점포 찾기</span>
               </figcaption>
             </figure>
           </div>
@@ -226,12 +253,12 @@
                 <span>까탈스럽습니다</span>
               </h2>
               <p>
-                <span>맑고 깨끗한 자연 환경속에서 재배된 식재료가</span>
+                <span>맑고 깨끗한 자연환경 속에서 재배된 식재료가</span>
                 <span>아니면 한솥이 될 수 없습니다.</span>
                 <span>모든 식재료는 고객분들이 안심하고 드실 수 있도록</span>
                 <span>엄격한 기준 아래 선별됩니다.</span>
               </p>
-              <span>식재료이야기</span>
+              <span>식재료 이야기</span>
             </figcaption>
           </figure>
         </div>
@@ -302,15 +329,15 @@
         </div>
         <div class="ft-info-wrap">
           <div class="ft-info">
-            <p>대표이사 이영덕, 이하림</p>
-            <p>사업자등록번호 214-81-96569</p>
-            <p>서울시 강남구 강남대로 318(역삼동) 타워837빌딩 8,9층</p>
-            <p>T. 02-585-1114</p>
-            <p>F. 02-598-1116</p>
-            <p>E. webmaster@hsd.co.kr</p>
-            <p>한솥 도시락 고객센터 02-585-1114</p>
-            <p>전국창업설명회 02-585-1114</p>
-            <p>단체주문 1644-3288</p>
+            <p>대표이사 오성의</p>
+            <p>사업자등록번호 112-32-20119</p>
+            <p>구리시 양평군 9543 학동로</p>
+            <p>T. 040-3175-8645</p>
+            <p>F. 040-3175-8645</p>
+            <p>E. kjeon@yahoo.com</p>
+            <p>한솥 도시락 고객센터 040-3175-8645</p>
+            <p>전국창업설명회 040-3175-8645</p>
+            <p>단체주문 3175-8645</p>
           </div>
           <div class="copyright">
             <p>COPYRIGHT<span>©</span>㈜한솥. ALL RIGHTS RESERVED.</p>
