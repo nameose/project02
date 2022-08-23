@@ -5,10 +5,7 @@ html { overflow-y: scroll; overflow-x: hidden; }
 body { font-family: "Noto Sans KR", "맑은 고딕", sans-serif; font-size: 15px; color: #373737; letter-spacing: -0.7px; word-break: keep-all; } 
 a { text-decoration: none; color: #333; } 
 ol,ul,li { list-style: none; } 
-
+html, body, button, dl, dt, dd, div, form, fieldset, legend, h1, h2, h3, h4, h5, h6, input, select, textarea, ul, ol, li, p, pre, table, td, th, caption, a, button { line-height: 120%; } 
 .fl { float: left; } 
 .fr { float: right; } 
 .cf::after { content: ""; display: block; clear: both; } 
-
-
-html, body, button, dl, dt, dd, div, form, fieldset, legend, h1, h2, h3, h4, h5, h6, input, select, textarea, ul, ol, li, p, pre, table, td, th, caption, a, button { line-height: 120%; } 
