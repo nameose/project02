@@ -937,7 +937,7 @@ img {
   }
 }
 /* mobile */
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 375px) {
   .nav-wrap {
     height: 60px;
   }
@@ -1044,6 +1044,7 @@ img {
   }
   .main-cont3 .info .btn {
     width: 100%;
+    margin: 50px 0 0 0;
   }
   .main-cont4 {
     padding: 0 20px;
@@ -1076,6 +1077,9 @@ img {
   #footer .ft-menu ul {
     width: 385px;
   }
+  #footer .ft-menu li{
+    padding: 0 10px;
+  }
   #footer .ft-menu li:first-child {
     display: none;
   }
@@ -1089,6 +1093,9 @@ img {
     display: none;
   }
   #footer .ft-info-wrap .ft-info {
+    display: none;
+  }
+  #back-to-top{
     display: none;
   }
 }
