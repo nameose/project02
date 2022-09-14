@@ -131,7 +131,7 @@
   display: inline-block;
 }
 .gnb .depth1 .depth2 li:hover a {
-  text-decoration: underline;
+  font-weight: 700;
   color: #373737;
 }
 .openMOgnb {
