@@ -633,7 +633,7 @@ img {
 }
 
 /* media query */
-/* PC */
+/* pc */
 @media screen and (max-width: 1190px) and (min-width: 1025px) {
   .gnb {
     margin-left: 250px;
@@ -673,7 +673,7 @@ img {
     margin-top: 60px;
   }
 }
-/* tablet-L */
+/* laptop */
 @media screen and (max-width: 1024px) and (min-width: 769px) {
   .nav-wrap h1 {
     left: 42%;
@@ -784,7 +784,7 @@ img {
     display: none;
   }
 }
-/* tablet-S */
+/* tablet */
 @media screen and (max-width: 768px) and (min-width: 426px) {
   .nav-wrap {
     height: 60px;
