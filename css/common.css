@@ -275,7 +275,7 @@
   background-size: 101%;
   margin-top: 60px;
   overflow: hidden;
-  transition: all 1s;
+  transition: all 1.5s;
 }
 .main-cont3:hover {
   background-size: 106%;
@@ -284,6 +284,7 @@
   position: relative;
   padding: 80px 25px 60px 25px;
   color: #fff;
+  max-width: 320px;
 }
 .main-cont3 .info::after {
   content: "";
