@@ -271,9 +271,14 @@
 }
 .main-cont3 {
   height: 600px;
-  background: url(../img/main_visual_02.jpg) 50% no-repeat;
+  background: url(../img/main_visual_02.jpg) center no-repeat;
+  background-size: 101%;
   margin-top: 60px;
   overflow: hidden;
+  transition: all 1s;
+}
+.main-cont3:hover {
+  background-size: 106%;
 }
 .main-cont3 .info {
   position: relative;
@@ -1077,7 +1082,7 @@ img {
   #footer .ft-menu ul {
     width: 385px;
   }
-  #footer .ft-menu li{
+  #footer .ft-menu li {
     padding: 0 10px;
   }
   #footer .ft-menu li:first-child {
@@ -1095,7 +1100,7 @@ img {
   #footer .ft-info-wrap .ft-info {
     display: none;
   }
-  #back-to-top{
+  #back-to-top {
     display: none;
   }
 }
